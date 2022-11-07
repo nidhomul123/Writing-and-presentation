@@ -1,0 +1,211 @@
+## Rangkuman ringkasan writing CLI
+  1.shell adalah program yang membaca dan mengartikan perintah yang di tulis di CLI
+  2. CLI sendiri suatu program yang digunakan untuk membuat perintah dalam text di computer.
+  3. user dan komputer dapat saling terhubung dimana user mengetikan perintah di dalam terminal dan dapat menjalankan shell
+  4. file system structure mengatur bagaimana data disimpan di dalam sebuah system.
+  5.perintah pwd untuk melihat current working directory
+  6.perintah ls untuk melihat isi sebuah directory
+  7. perintah cd\ directory untuk berpindah directory
+  8.perintah cat untuk melihat isi files
+  9.touch itu untuk membuat file kalua mkdir membuat directory
+  10.perintah cp untuk meyalin file, untuk cp -r untuk menyalin directory
+  11.perintah mv untuk memindahkan atau re-name file dan directory
+  12.perintah rm untuk menghapus file dan directory
+
+
+## Ringkasan untuk Git hub
+   * karena untuk programmer penyimpanan  file yang lebih efektif,melacat setipa setiap perubahan didalam git nya.
+   
+   * git itu mempunyai nama lain vcs (version Control System)yang tugasnya mencatat setiap perubahan pada file
+   
+   * Kalua github itu layanan hosting.
+   
+   * Dengan menggunakan GIT dan Github, kamu akan bisa bekerja dalam sebuat tim. <em><strong>Tujuan besarnya </strong></em> adalah kamu bisa <em>       <strong>berkolaborasi  </strong></em>, mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
+   * dengan menggunakan printah git init proyek-01 
+        
+       <em><strong>1 Repo =  1 Proyek = 1 Direktori </strong></em>
+       - Menggunakan perintah ini  <em><strong>$ git add index.php  </strong></em>.memahami dan membuat Repository Git.
+       - menggunakan perintah ini <em><strong>$ git commit -m "first commit"   </strong></em> melakukan commit pada Git.
+       - Menggunakan perintah ini  <em><strong>$ git push -u origin master   </strong></em>.untuk mempublikasikannya.
+       - menggunakan perintah ini <em><strong>$git clone git@github.com.........    </strong></em> melakukan cloning Github ke local.
+
+## Ringkasan HTML
+  +	HTML digunakan untuk menampilkan konten pada browser.
+  + Ada 2 tools yang paling utama yaitu browser sama code editor atau yang kita sbut visual studio code.
+  + Peserta mampu membuat HTML sederhana 
+         <!DOCTYPE html>
+          <html>
+             <head>
+               <title>
+                      Perkenalan HTML
+               </title>
+              <style></style>
+             </head>
+             <body>
+               <h1>Membuat HTML itu gampang</h1>
+             </body>
+         </html>
+  + Memptaktikan di viscode (pilih extentions lalu cari live start klik install lalu klik kanan pada file html nya pilih open with live server maka html kita sudah ke auto reload).
+  + Tag <img> untuk menampilkan gambar di html, tag <src> aatau <source> untuk mengambil gambar dari sumber gambar, tag <video>untuk menampilkan  video.
+  + <footer> — untuk membuat elemen bagian kaki dari web;
+    <header> — untuk mebuat kepala kop dari web;
+    <nav> — untuk membuat elemen navigasi;
+  + 	Kita gunakan tools bernama Netlify
+      Kita tinggal masuk ke netlify.com lalu register seperti biasa menggunakan email atau github
+      Setelah itu masuk ke tab Sites lalu drag and drop seluruh folder html.
+
+
+## Rangkuman CSS
+
+  1.	CSS adalah bahasa komputer yang digunakan untuk menambahkan design ke suatu halaman website di internet.
+  2.	CSS adalah singkatan dari Cascading Style Sheets. CSS bagaikan kulit pada tubuh kita, yang membungkus
+   ![1](https://user-images.githubusercontent.com/113963947/193442999-e4ef8c61-48b6-4666-a59c-15cbdea10f72.jpg)
+  3.	Ada 3 cara menyisipkan CSS =, yaitu :
+
+  4. inline, yaitu menggunakan attribute style untuk menyisipkan kode CSS langsung di dalam HTML element. 
+       ![2](https://user-images.githubusercontent.com/113963947/193443738-33eb1284-8e1e-4cdb-8933-b8609a46dc90.jpg)
+  5. internal, yaitu menggunakan element style untuk menyisipkan kode CSS. Element tersebut diletakkan di dalam element . 
+       ![3](https://user-images.githubusercontent.com/113963947/193443769-5042a40d-b4ff-4d91-b647-ed7725784519.jpg)
+  6. eksternal, yaitu sebuah file CSS terpisah yang disambungkan dengan file HTML dengan menggunakan element . 
+    <!DOCTYPE html>
+      <html>
+           <title>CSS Guide</title>
+
+          <style type=”text/css”>
+            style.css
+                 p {
+
+                  color: #FFFFFF;
+
+                  font-family: arial;
+
+                  background: #FF0000;
+
+                  font-weight: bold;
+
+              }
+
+                 p.group {
+
+                  color: #FF0000; /* membuat warna text putih */
+
+                 font-family: arial;
+
+                 background: #FFFFFF; /* membuat background putih */
+
+             }
+
+                 p#one {
+
+                 color: blue;
+
+                 font-family: “times new roman”;
+
+            }
+              <link rel=”stylesheet” type=”text/css” href=”/old-site/style.css” />
+
+              <head>
+               <title>CSS Guide</title>
+
+               <link rel=”stylesheet” type=”text/css” href=”/old-site/style.css” />
+
+             </head>
+
+              <body>
+
+ 
+
+                   <p>Ini adalah paragraf 1.  </p>
+
+                   <p class=”group”>Ini adalah paragraf 2.  </p>
+
+                   <p class=”group” id=”one”>Ini adalah paragraf 3. </p>
+            </body>
+
+     </html>
+    
+  7.	CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari  selector, property, dan value.
+  8.	Flexbox atau Flexible Box  merupakan sebuah mode pengaturan atau konsep layout pada CSS yang digunakan untuk mengatur elemen atau container beserta item didalamnya pada halaman web.
+     Sebelum Flexbox, ada beberapa layout model yang sudah ada, yaitu :
+        Block
+        Inline
+        Table
+        Positioned
+     Setelah adanya Flexbox, membuat halaman web yang responsive dan pembuatan struktur layout lebih mudah daripada memakai float atau positioning
+
+
+##Ringkasan Algoritma dan data structure
+ -  Algoritma adalah metode atau langkah yang direncanakan secara tersusun dan berurutan untuk menyelesaikan atau memecahkan permasalahan dengan sebuah intruksi atau kegiatan.
+
+ -  Ada 4 jenis Algoritma, yaitu:
+        + Sequence, adalah Intruksi yang dijalankan secara berurutan. contoh Gelas diisi dengan air, lalu air siap untuk diminum
+        + Selection, adalah Intruksi yang dijalankan jika memenuhi suatu kondisi. contoh : Gelas diisi dengan air, lalu air siap untuk diminum
+        + Iteration, adalah Intruksi yang berulang kali dijalankan selama memenuhi suatu kondisi. Contoh : Selama belum sampai rumah, saya akan terus menyetir
+        + Concurrent, Intruksi yang dijalankan secara bersamaan. contoh : Selama belum sampai rumah, saya akan terus menyetir
+ -  Ada 3 cara penyajian algortima, yaitu:
+          Deskriptif, yaitu Menulis dengan bahasa sehari-hari.
+            Contoh deskriptif: 
+            Cara menghitung luas persegi panjang Masukkan nilai panjang
+            Masukkan nilai lebar
+            Hitung luas persegi panjang
+            Menampilkan    hasil perhitungan.
+            
+ - Flowchart, yaitu Menulis dengan bahasa sehari-hari.
+           ![12](https://user-images.githubusercontent.com/113963947/193444287-3193c4f6-967a-47c7-a1e3-dfb1c16896e4.png)
+ - contoh flowchart bilangan 10
+           ![13](https://user-images.githubusercontent.com/113963947/193444379-93f1bb95-f6b7-47a7-9693-43063a09bf57.jpg)
+
+ - Pseucode, yaitu Penulisan algoritma yang hampir menyerupai penulisan pada kode pemrograman. Pada umunya pseucode memiliki 3 bagian, yaitu judul,   deklarasi(mendefinisikan/menyiapkan semua nama (variabel) yang akan digunakan), deskripsi (langkah-langkah penyelesaian).
+           ![11](https://user-images.githubusercontent.com/113963947/193444245-b0130bdb-107c-4362-b2bd-bf326cb551f9.jpg)
+
+## Ringkasan javascript
+
+   -  JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif
+   -  ada 2 cara menyisipkan javascript, yaitu :
+   -  internal, yaitu menyisipkan kode JavaScript langsung di dalam file HTML. Untuk menyisipkan kode JavaScript di dalam file HTML, kita bisa menuliskan kode JavaScript di dalam tag script.
+      ![4](https://user-images.githubusercontent.com/113963947/193444526-70a2ddd5-c79e-41c1-888c-19ed3d656837.jpg)
+
+   -  eksternal, yaitu membuat file JavaScript sendiri dan menyambungkannya dengan file HTML.Cara menyambungkannya sama seperti internal JavaScript, yaitu menggunakan tag script di dalam element body.
+      
+   - ada 7 tipe data Javascript, yaitu :
+
+     1. string, deretan karakter yang diapit oleh sepasang tanda kutip;
+     2. number, bilangan bulat, pecahan, dan lain-lain;
+     3. boolean, nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false;
+     4. null, sebuah nilai yang berarti kosong atau menunjuk pada nilai yang tidak ada;
+     5. undefined, berbeda dari null, undefined menandakan kondisi variabel yang belum diberi sebuah nilai. Jadi pernyataan "nilai variabel itu adalah undefined" sebenarnya kurang tepat, sebab variabelnya memang tidak mempunyai sebuah nilai;
+     6. symbol, sebuah nilai unik yang dihasilkan tiap kali kita memanggil fungsi Symbol(). Nilai unik ini memiliki beberapa kegunaan seperti memberi nomor identifikasi unik dan berperan sebagai nama properti unik sebuah objek;
+     7. object, sebuah kumpulan pasangan properti dan nilai. Seperti objek dalam kehidupan sehari-hari saja. Misalnya objek Apel memiliki properti warna dengan nilai merah.
+   - Beberapa operator pada JavaScript, yaitu:
+
+      Aritmetic Operators
+     ![5](https://user-images.githubusercontent.com/113963947/193444687-80a362a2-f198-449f-83a3-169f10019564.jpg)
+
+      Assignment Operator
+      ![6](https://user-images.githubusercontent.com/113963947/193444709-2f26ff60-cd4c-4ca8-af97-5a4585cab08f.jpg)
+
+      Comparison Operators
+      ![7](https://user-images.githubusercontent.com/113963947/193444720-86ccbb73-43ad-4f63-9e30-02547528c8b8.jpg)
+
+      Logical Operators
+      ![8](https://user-images.githubusercontent.com/113963947/193444739-925f09fe-6f73-4f99-923f-2690f9ff5890.jpg)
+   - Loop dalam Bahasa Indonesia artinya putaran. Dalam JavaScript, maksudnya adalah perulangan. Jadi, loop adalah sekumpulan kode yang akan dijalankan   berulang kali sampai batas yang ditentukan. Ada 5 jenis loop dalam JavaScript:
+
+          - for
+          - for..in
+          - for..of
+          - for...of
+          - while
+          - do..while
+   - Conditional dan Looping pada JavaScript Pada JavaScript ada dua cara menuliskan conditional, yaitu:
+
+   - menggunakan if, else if, dan else
+          ![9](https://user-images.githubusercontent.com/113963947/193444820-4ed1cf37-88c7-414c-b13c-32295c3d15f5.jpg)
+
+   - menggunakan switch dan case
+          ![10](https://user-images.githubusercontent.com/113963947/193444829-c1281822-f759-4d61-ada9-88368b4038c5.jpg)
+
+         Perbedaan penggunaan if else dan switch, case yaitu melihat banyaknya kondisi yang dimiliki. Jika hanya memiliki 3 kondisi akan lebih baik menggunakan if else, jika memiliki lebih dari 3 kondisi lebih baik menggunakan switch dan case untuk lebih praktis.
+
+
+
