@@ -1,5 +1,5 @@
-# Writing and Presentation Test Week 8
-## **State Management Redux**
+
+# **State Management Redux**
 - Redux digunakan untuk mengolah state management
 - State management pada dasarnya adalah cara untuk memfasilitasi komunikasi dan berbagi data di seluruh komponen.
 - Redux Memudahkan User dalam :
