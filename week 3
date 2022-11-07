@@ -1,0 +1,70 @@
+# Writing and Presentation Test Week 3
+## **JavaScript Intermediate**
+### **Array**
+- **Array** merupakan pengorganisasian data dan tempat penyimpanan data 
+- Array adalah tipe data list order yang dapat menyimpan tipe data apapun dialamnya seperti string, number, boolean dan lainnya
+- contoh Array 
+``` 
+    Let randomData = ['ini string', 20, true];
+    console.log(randomData);
+```
+### **JavaScript Object**
+- Object adalah benda mati maupun benda hidup adalah object.
+Pada programming object adalah sebuah tipe data pada variabel yg menyimpan properti dan fungsi (method)
+- Properti adalah data lengkap dari sebuah object
+- Method adalah action dari sebuah object. 
+- Method : jika value yang dimasukkan pada properti berupa function 
+- console adalah global javascript object dan log adalah properti yang berupa function dari object console
+- Nested Object
+- Pass by reference : mengubah data pada object melalui function dan memasukkan object sebagai parameter function
+- Looping pada object
+- Array of object
+
+### **JavaScript Recursive**
+- Recursive adalah fungsi yang memanggil dirinya sendiri sampai suatu kondisi tertentu terpenuhi
+- A new paradigm :
+  - Procedural
+  - Conditional
+  - Looping
+  - Modular (function)
+  - Recursive
+- Ciri dari recursive:
+  - Fungsi recursive memiliki kondisi yang menyatakan kapan fungsi tersebut berhenti. 
+  - fungsi recursive selalu memaanggil dirinya sendiri sambil mengurangi atau memecahkan data masukan setiap panggilannya.
+### **JavaScript REGEX**
+- **Regex** adalah susunan karakter/karakter spesial yang menggambarkan pattern/pola untuk pencarian text pada sebuah string atau document
+   > REGEX = Text Matching
+- Contoh penggunaan Regex :
+  - Validasi input dari sebuah form
+  - Mencari keyword tertentu pada email atau halaman web
+  - Mencari IP adress dalam kisaran tertentu
+### **JavaScript OOP**
+- **OOP** atau Object Oriented Programming adalah suatu paradigma dalam pemrograman 
+- 4 Pilar dalam OOP :
+  - Encapsulation adalah cara untuk membatasi akses langsung ke properti atau method dari sebuah objek
+
+  - Inheritance adalah sebuah proses dimana sebuah kelas mewariskan properti dan method ke kelas lain atau childnya
+  
+  - Polymorpishm adalah kemampuan dari suatu objek untuk memiliki banyak bentuk
+    
+  - Abstraction adalah teknik untuk menyembunyikan detail tertentu dari sebuah object atau method dan hanya menampilkan fitur penting dari objek tersebut
+
+### **JavaScript Modules**
+- Modules memungkinkan untuk memecah kode menjadi file terpisah sehingga mempermudah untuk maintain code
+- JavaScript Module bergantung pada pernyataan impor dan ekspor
+
+### **WEB STORAGE**
+- Web Storage adalah wadah untuk sebuah data yang digunakan untuk penyimpanan data yang terikat di browsernya
+- Jenis Web Storage yang umum digunakan yaitu :
+  - Local Storage
+  - Session storage
+  - IndexDB
+  - Cookies
+
+### **Asynchronous**
+- Asynchronous sebuah teknik yang menyelesaikan fungsi secara paralel
+- Penggunaan asynchronous dapat dilakukan jika kita ingin mengambil data dari database
+- Mengapa perlu menggunakan asynchronous? Asynchronous dibutuhkan ketika ada proses yangg membutuhkan waktu lama. Jadi kita bisa mengerjakan proses yg lain secara paralel.
+
+### **Bootstrap 5**
+
