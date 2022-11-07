@@ -1,5 +1,5 @@
 
-# **State Management Redux**
+**State Management Redux**
 - Redux digunakan untuk mengolah state management
 - State management pada dasarnya adalah cara untuk memfasilitasi komunikasi dan berbagi data di seluruh komponen.
 - Redux Memudahkan User dalam :
@@ -10,13 +10,13 @@
 - Redux thunk adalah middleware yang memungkinkan untuk memanggil pembuat aksi yang mengembalikan fungsi sebagai ganti objek aksi. 
 - Fungsi itu menerima metode pengiriman penyimpanan, yang kemudian digunakan untuk mengirim aksi sinkron di dalam isi fungsi setelah operasi asinkron selesai.
 - Untuk penggunaan redux thunk dengan `` npm install redux-thunk@2.3.0 ``
-## **React Context**
+ **React Context**
 - React Context dirancang untuk berbagi data yang dapat dianggap "global" untuk pohon komponen React, seperti pengguna yang diautentikasi saat ini, tema, atau bahasa pilihan
 - Penggunaan React Context 
   - Untuk membuat new context, gunakan fungsi createContext baru React
   - Fungsi createContext mengembalikan a Provider dan a Consumer component..
 
-## **React Testing**
+ **React Testing**
 - Testing berarti memeriksa bahwa kode kami memenuhi beberapa harapan
 - Testing dibagi menjadi 2 main kategori yaitu :
   - Unit Testing
